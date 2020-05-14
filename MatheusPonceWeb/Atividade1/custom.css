@@ -1,0 +1,178 @@
+body {
+    background-color: white;
+    background-image: url("assets/img/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    font-variant: normal;
+    overflow: auto;
+}
+
+.logo {
+    border-radius: 10px;
+    min-width: 80px;
+    min-height: 80px;
+    max-width: 80px;
+    max-height: 80px;
+    vertical-align: middle;
+    mix-blend-mode: multiply;
+}
+
+
+.div-header {
+    float: inherit;
+    margin: 30px;
+    min-width: 80px;
+    min-height: 80px;
+    vertical-align: middle;
+    position: relative;
+    clear: right;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.keyw {
+    color: orangered;
+    font-style: normal;
+    font-weight: 130;
+
+}
+
+.container {
+    background-color: transparent;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    align-content: stretch;
+    height: 100%;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.banner {
+    background-color: darkslategray;
+    text-align: center;
+    padding: 5px;
+    margin: 15px;
+    height: 100%;
+    min-height: 80px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.content {
+    background-color: darkslategray;
+    text-align: center;
+    padding: 25px;
+    margin-top: 20px;
+    margin: 15px;
+    height: 100%;
+    min-height: 550px;
+    text-overflow: ellipsis;
+}
+
+.footer {
+    background-color: darkslategray;
+    text-align: center;
+    padding: 5px;
+    margin-top: 20px;
+    margin: 15px;
+    height: 100px;
+    min-height: 80px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+h1 {
+    font-family: Helvetica, Tahoma, Candara;
+    color: darkgray;
+}
+
+h2 {
+    font-family: Helvetica, Tahoma, Candara;
+    color: darkgray;
+    text-align: left;
+    text-indent: 20px;
+}
+
+h3 {
+    font-family: Helvetica, Tahoma, Candara;
+    color: darkgray;
+    text-align: left;
+    text-indent: 20px;
+}
+
+h4 {
+    font-family: Helvetica, Tahoma, Candara;
+    color: darkgray;
+    text-align: left;
+    text-indent: 20px;
+}
+
+h5 {
+    font-family: Helvetica, Tahoma, Candara;
+    color: darkgray;
+    text-align: left;
+    text-indent: 20px;
+}
+
+p {
+    font-family: Verdana, Arial, Geneva;
+    color: steelblue;
+    margin: 15px;
+    padding: 5px;
+    text-align: left;
+    text-indent: 30px;
+}
+
+ul {
+    padding: 5px;
+    color: silver;
+    margin-left: 80px;
+}
+
+ul.clean {
+    list-style: none;
+    padding: 5px;
+}
+
+ul.square {
+    list-style: square;
+    padding: 5px;
+}
+
+ul.disc {
+    list-style: disc;
+    padding: 5px;
+}
+
+ul.circle {
+    list-style: circle;
+    padding: 5px;
+}
+
+ul.header {
+    display: inline-flex;
+    list-style: none;
+    vertical-align: middle;
+    align-items: stretch;
+}
+
+li {
+    text-align: left;
+    text-justify: auto;
+}
+
+li.header {
+    align-content: space-between;
+    vertical-align: middle;
+    margin: 5px;
+    padding: 10px;
+}
+
+
+.ln-active {}
+
+.ln-normal {}
+
+.ln-hover {}

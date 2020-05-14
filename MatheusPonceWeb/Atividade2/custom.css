@@ -1,0 +1,160 @@
+.dbg-borda {
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+body {
+    background: silver;
+    color: antiquewhite;
+}
+
+body * {
+    background: #222222;
+}
+
+header {
+    text-align: center;
+    color: royalblue;
+    margin: 5px;
+    padding: 3px;
+    position: fixed top;
+}
+
+header hgroup {
+    vertical-align: middle;
+    align-content: center;
+    text-align: justify;
+}
+
+header hgroup ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+header hgroup ul li img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    
+}
+
+header hgroup ul li ul li {
+    list-style: none;
+    display: block;
+}
+
+header hgroup ul li ul li h2 {
+    color: red;
+}
+
+nav {
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+}
+
+section {
+    margin: 5px;
+    padding: 10px;
+    overflow: auto;
+    max-height: 425px;
+}
+
+article {
+    margin: 5px;
+    padding: 10px;
+    overflow: auto;
+    vertical-align: middle;
+    align-content: center;
+    text-align: justify;
+}
+
+.head {
+    
+}
+
+.conteudo {
+    margin: 1px;
+}
+
+.imagem {
+    float: left;
+    height: 100px;
+    width: 20%;
+    margin: 3px;
+}
+
+.texto {
+    width: 75%;
+    float: left;
+    margin: 3px;
+}
+
+figure img {
+    height: 80px;
+    width: 80px;
+}
+
+article:hover {
+    background: silver;
+}
+
+article:hover h1 {
+    color: red;
+}
+
+article:hover p {
+    color: darkblue;
+}
+
+article:hover * {
+    background: silver;
+}
+
+section h1 {
+    padding: 10px;
+    color: burlywood;
+}
+
+p {
+    text-align: justify;
+    color: olivedrab;
+    text-indent: 30px;
+    padding: 5px 5px 5px 10px;
+}
+
+footer {
+    color: red;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer ul li {
+    color: yellow;
+    display: inline;
+    list-style: disc;
+    margin: 5px;
+    padding: 1px;
+}
+
+a:link {
+    color: lightgreen;
+}
+
+a:active {
+    color: darkorange;
+}
+
+a:hover {
+    color: coral;
+}

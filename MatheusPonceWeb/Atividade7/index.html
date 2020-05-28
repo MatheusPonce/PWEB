@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Objetos e Construtores</title>
+    <link rel="stylesheet" href="assets/custom/css/style.css" >
+    <script type="text/javascript" src="assets/custom/js/script.js"></script>
+    
+</head>
+
+<body>
+    <div class="content">
+        <div class="content-box">
+            <form name="asdf" action="">
+                <div class="formgroup">
+                    <label for="ladoA" class="label">Valor do Lado A</label>
+                    <input id="ladoA" name="a" type="text" class="text-box">
+                </div>
+                <div class="formgroup">
+                    <label for="ladoB" class="label">Valor do Lado B</label>
+                    <input id="ladoB" name="b" type="text" class="text-box">
+                </div>
+                <input type="button" id="calcular" value="Calcular" onclick="quad(a.value, b.value)" class="form-button" />
+            </form>
+        </div>
+        <div class="content-box">
+            <div id="label" style="margin-left: 5px;  margin-right: 10px; margin-bottom: 5px; float: left">O resultado é </div>
+            <div id="resultado" style="margin-left: 5px;  margin-right: 10px; margin-bottom: 5px; float: left"></div>
+        </div>
+    </div>
+    <div class="content">
+        <div id="contaCorrente" class="content-box">
+            <script>
+                mostraConta(cc, 'contaCorrente');
+            </script>
+        </div>
+        <div id="contaPoupanca" class="content-box">
+            <script>
+                mostraConta(cp, 'contaPoupanca');
+            </script>
+        </div>
+    </div>
+</body>
+
+</html>

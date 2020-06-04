@@ -1,0 +1,59 @@
+html,
+body {
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: inline-flex;
+}
+
+.content-box {
+    float: left;
+    align-content: center;
+    vertical-align: middle;
+    padding: 5px;
+    margin: 5px;
+    width: auto;
+    min-width: 200px;
+}
+
+.forms {
+    margin: 5px;
+    padding: 5px;
+    float: none;
+    align-content: center;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.formgroup {
+    margin: 3px;
+    display: block;
+    height: 25px;
+    width: 200px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.label {
+    margin-right: 10px;
+}
+
+.text-box {
+    margin-right: 10px;
+    margin-bottom: 5px;
+    width: 50px;
+}
+
+.form-button {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    min-height: 25px;
+    width: 40%;
+    align-self: center;
+    display: block;
+}

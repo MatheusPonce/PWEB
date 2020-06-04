@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Atividade 9</title>
+    <script type="text/javascript" src="assets/custom/js/script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="content">
+            <form name="form1">
+                <input type="text" id="fonte" />
+                <br>
+                <fieldset name="checkgroup" style="border: 0; max-width: 49%; align-content: center; vertical-align: middle;">
+                    <label for="chk">Maiúsculas</label>
+                    <input type="checkbox" id="case" name="chk" style="margin-right: 10px;" onclick="mudaCase(this);" value="upperCase" />
+                    <label for="chk">Minúsculas</label>
+                    <input type="checkbox" id="case" name="chk" onclick="mudaCase(this);" value="lowerCase" />
+                </fieldset>
+            </form>
+        </div>
+        <div class="content">
+            <div id="resultado" class="text-box">
+                
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

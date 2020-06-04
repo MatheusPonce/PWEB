@@ -1,0 +1,80 @@
+<html>
+
+<head>
+	<title>Imprime Mensagem</title>
+	<style>
+		input{ margin-bottom: 20px;}
+		textarea{ margin-bottom: 20px;}
+		h1{
+			 border-bottom: 5px solid black;
+		}
+		p{margin:0}
+	</style>
+	<script>
+		i = 0;
+
+		function validar() {
+			if (document.form1.elements["Nome"].value.length<10){
+				alert("Nome deve ter pelo menos 10 caracteres!");
+			}else{
+				var emailtext = document.getElementById("Email").value
+				var arroba = emailtext.indexOf("@");
+				var ponto = emailtext.indexOf(".");
+				if (arroba<0 || ponto<0){
+					alert("Email invalido!");
+				}else{
+					if (document.getElementById("comentarios").value.length<20){
+						alert("O comentário deve ter pelo menos 20 caracteres!");
+					}else{
+						if (document.getElementById("sim").checked=="True"){
+							alert("Volte sempre à esta página!");				
+						}else{
+
+							alert("Que bom que você voltou à esta página!");
+						}
+					}
+				}
+			}
+		}
+	</script>
+</head>
+
+<body bgcolor="#E9967A">
+	<center>
+	<div >
+		<h1> Formulario Principal </h1>
+	</div>
+
+	<form name="form1" id="form1">
+		<p>
+			Nome
+		</p>
+		<input type="text" name="Nome" id="Nome" size="40">
+		<p>
+			Email
+		</p>
+		<input type="text" name="Email" id="Email" size="40">
+		<p>
+			Comentário
+		</p>
+		<textarea name="comentarios" id="comentarios" rows="10" cols="40"></textarea>
+		<p>
+			<b> Pesquisa: </b>
+		</p>
+		<p>
+			Você já veio a esta página antes?
+		</p>
+		<input type="radio" id="sim" name="primeiravez" value="sim">
+		<label for="sim">Sim</label>
+		<input type="radio" id="nao" name="primeiravez" value="não" checked="True">
+		<label for="nao">Não</label>
+		<br>
+		<br>
+		<br>
+		<button onclick="validar()" name="btnenviar" > enviar </button>
+		<button onclick="validar()" name="btnlimpar" > limpar </button>
+	</form>
+	</center>
+</body>
+
+</html>

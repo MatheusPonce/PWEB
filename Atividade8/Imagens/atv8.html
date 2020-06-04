@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Atividade 8</title>
+
+
+	<script>
+		function clickImg(){
+			document.getElementById("principal").src = "janelaQuebrada.png";
+		}
+		function overImg(){
+			document.getElementById("principal").src = "janelaAberta.png";
+		}
+		function outImg(){
+			document.getElementById("principal").src = "janelaFechada.png";
+		}
+	</script>
+</head>
+
+<body>
+    <form action="teste" method="POST" name="formulario1" id="formulario1">
+
+        <img id="principal" src="janelaFechada.png" onclick="clickImg()" onmouseover="overImg()" onmouseout="outImg()" />
+	
+    </form>
+</body>
+
+</html>

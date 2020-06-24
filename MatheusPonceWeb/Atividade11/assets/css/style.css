@@ -1,0 +1,120 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    
+    background-color: rgb(
+        74, 
+        85, 
+        92
+    );
+    color: rgb(
+        0, 
+        0, 
+        0
+    );
+    
+    text-shadow: 4px 4px 2px rgb(178, 0, 0);
+    
+    overflow: hidden;
+    
+    display: inline-block;
+    
+/*    background-image: linear-gradient(
+        to top right,
+        rgba(100, 123, 180, 0.3),
+        rgba(180, 123, 100, 0.5),
+        rgba(100, 180, 123, 0.7),
+        rgba(100, 123, 180, 0.3),
+        rgba(180, 123, 100, 0.5),
+        rgba(100, 180, 123, 0.7)
+    );
+*/    
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    vertical-align: middle;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+div {
+    margin: auto;
+    align-self: center;
+    
+    align-self: center;
+    align-items: center;
+    align-content: center;
+}
+
+div.container {
+    height: 100%;
+    width: 100%;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    
+    background-repeat: no-repeat;
+    
+    overflow-y: auto;
+    display: block;
+    vertical-align: middle;
+}
+
+div.conteudo {
+    width: 97.5vw;
+    
+    margin-left: 1vw;
+    margin-right: 1vw;
+    
+    padding: 5px;
+    
+    height: 100%;
+    margin-bottom: 1vh;
+    vertical-align: middle;
+}
+
+h1 {
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 14px;
+    display: block;
+    width: 100%;
+    
+    font-size: 25px;
+    font-weight: bold;
+    visibility: visible;
+}
+
+p {
+    margin: auto;
+    visibility: visible;
+    text-indent: 25px;
+    font-size: 16px;
+}
+
+form {
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    vertical-align: middle;
+    margin: auto;
+    padding: 20px;
+}
+
+select {
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    vertical-align: middle;
+    margin: auto;
+}
+
+select > option {
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    vertical-align: middle;
+    margin: auto;
+}

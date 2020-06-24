@@ -1,6 +1,6 @@
 # Programação WEB
 
-Repositório voltado aos exercícios da disciplina supracitada da Fatec - Sorocaba.
+Repositório voltado aos exercícios da disciplina PWEB da Fatec - Sorocaba.
 
 ## Atividade 1
 -Finalizado;
@@ -17,5 +17,32 @@ Repositório voltado aos exercícios da disciplina supracitada da Fatec - Soroca
 ## Atividade 5
 - Finalizado;
 
-## Protfolio
+## Atividade 6
+- Finalizado;
+
+## Atividade 7
+- Finalizado;
+
+## Atividade 8
 - Em andamento;
+
+## Atividade 9
+- Finalizado;
+
+## Portfolio
+- Concluído;
+
+## Atividade 10
+- Finalizado;
+
+## Atividade 11
+- Finalizado;
+
+## Atividade 12
+- Finalizado;
+
+## Atividade 13
+- Finalizado;
+
+## Atividade 14
+- Finalizado;

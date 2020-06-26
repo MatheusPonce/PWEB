@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<faces-config version="2.2"
+              xmlns="http://java.sun.com/xml/ns/javaee"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_2_1.xsd">
+
+    <navigation-rule>
+        <from-view-id>index.xhtml</from-view-id>
+        <navigation-case>
+            <from-action>#{user.novo}</from-action>
+            <from-outcome>novo</from-outcome>
+            <to-view-id>/usuario.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+    
+    <navigation-rule>
+        <from-view-id>usuario.xhtml</from-view-id>>
+        <navigation-case>
+            <from-outcome>user.salvar</from-outcome>
+            <if>#{user.senha user.confirmaSenha}</if>
+            <to-view-id>/mostrausuario.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>usuario</from-outcome>
+            <if>#{user.senha}</if>
+            <to-view-id>/usuario.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+    
+</faces-config>

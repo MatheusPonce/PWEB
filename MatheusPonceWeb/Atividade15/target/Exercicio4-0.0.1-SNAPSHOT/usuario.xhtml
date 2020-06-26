@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+    
+    <h:head>
+        <title>TODO supply a title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF8;" />
+    </h:head>
+        
+    <h:body>
+        
+        <div>
+            <h1>Cadastro de usuários</h1>
+        </div>
+        
+        <div>
+            <br />
+            <h:form acceptcharset="UTF8"> <!-- evitar problemas acentuação nos campos -->
+            <h:messages /> <!-- onde aparecerá msg de erro -->
+            <h:panelGrid columns="2">
+                <h:outputLabel value="Nome:" for="nome" />
+                <h:inputText id="nome" label="Nome" value="#{user.nome}" required="true" />
+                    <h:outputLabel value="e-Mail:" for="email" />
+                    <h:inputText id="email" label="e-Mail" value="#{user.email}" />
+                    <h:outputLabel value="Senha:" for="senha" />
+                    <h:inputSecret id="senha" label="Senha" value="#{user.senha}"
+                    required="true" />
+                    <h:outputLabel value="Confirmar Senha:" for="confirmarSenha" />
+                    <h:inputSecret id="confirmarSenha" label="Confirmar Senha"
+                    value="#{user.confirmaSenha}" required="true" />
+                    <h:outputText />
+                    <h:commandButton action="#{user.salvar}" value="Salvar" />
+                </h:panelGrid>
+            </h:form>
+            <br />
+        </div>
+        
+    </h:body>
+    
+</html>

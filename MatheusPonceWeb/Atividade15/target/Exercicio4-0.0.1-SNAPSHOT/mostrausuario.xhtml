@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+    
+    <h:head>
+        <title>Usuário Cadastrado</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF8;" />
+    </h:head>
+    
+    <h:body>
+        
+        <div>
+            <h1>Usuário Cadastrado</h1>
+            <hr />
+        </div>
+        
+        <div>
+            
+            <h:outputText value="Nome: " />
+            <h:outputText value="#{user.nome}" />
+            <br />
+            <h:outputText value="Senha: " />
+            <h:outputText value="#{user.senha}" />
+            <br />
+            <hr />
+            <h:outputText value="Email: " />
+            <h:outputText value="#{user.email}" />
+            <br />
+            <hr />
+            <h:form>
+            <!-- OBRIGATORIO FORM por causa do link -->
+            <h:commandLink action="index" value="inicio" />
+            </h:form>
+            
+        </div>
+        
+    </h:body>
+    
+</html>
